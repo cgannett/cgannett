@@ -1,11 +1,14 @@
 @import '~react-md/src/scss/react-md';
-$md-primary-color: $md-grey-400;
-$md-secondary-color: $md-red-800;
-$md-tertiary-color: $md-grey-300;
+$md-primary-color: rgb(50, 150, 50);
+$md-secondary-color: rgb(50, 150, 50);
+$md-tertiary-color: $md-grey-100;
+$md-light-theme: false;
+
 
 .main-container,
-.darker-background {
-    background-color: $md-tertiary-color;
+.darker-background, body {
+    background: rgb(150,150,150);
+    background: linear-gradient(33deg, rgb(150,150,150) 15%, rgb(220,220,200) 15%, rgb(220,220,200) 30%, rgb(150,150,150) 30%, rgb(150,150,150) 45%, rgb(220,220,200) 45%, rgb(220,220,200) 60%, rgb(150,150,150) 60%, rgb(150,150,150) 75%, rgb(220,220,200) 75%, rgb(220,220,200) 90%, rgb(150,150,150) 90%, rgb(150,150,150) 105%, rgb(220,220,200) 105%);
 }
 
 a:link {

@@ -37,6 +37,16 @@ const config = {
       label: "Email",
       url: "mailto:carltongannett@gmail.com",
       iconClassName: "fa fa-envelope"
+    },
+    {
+      label: "Medium",
+      url: "https://medium.com/@carltongannett",
+      iconClassName: "fa fa-medium"
+    },
+    {
+      label: "LinkedIn",
+      url: "https://www.linkedin.com/in/carltongannett",
+      iconClassName: "fa fa-linkedin"
     }
   ],
   copyright: "Copyright © 2019. Carlton Gannett" // Copyright string for the footer of the website and RSS feed.
