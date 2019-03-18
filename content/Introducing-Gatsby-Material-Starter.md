@@ -1,4 +1,4 @@
-n---
+---
 title: "Introducing Gatsby Material Starter"
 cover: "starter-logo-1024.png"
 category: "gatsby"
