@@ -111,9 +111,9 @@ module.exports = {
         short_name: config.siteTitleShort,
         description: config.siteDescription,
         start_url: config.pathPrefix,
-        background_color: "#e0e0e0",
-        theme_color: "#c62828",
-        display: "minimal-ui",
+        background_color: "#000",
+        theme_color: "#fff",
+        display: "standalone",
         icons: [
           {
             src: "/logos/logo-192.png",
