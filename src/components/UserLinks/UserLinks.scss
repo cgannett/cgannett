@@ -1,4 +1,4 @@
-@import '~react-md/src/scss/react-md';
+@import '../../layout/theme.scss';
 .user-links {
     display: flex;
     flex-wrap: wrap;
@@ -6,4 +6,6 @@
     align-items: center;
     max-width: 100%;
     background-color: $md-grey-700;
+    color: $md-secondary-color !important;
+    
 }

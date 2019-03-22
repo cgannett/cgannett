@@ -1,3 +1,5 @@
+@import '../../layout/theme.scss';
+
 .social-links {
     display: flex;
     flex-direction: row;
@@ -6,9 +8,11 @@
     align-content: center;
     align-items: center;
     margin: 15px 0;
+    
 
     > div {
         margin: 5px 15px;
+        color: $md-secondary-color !important;
     }
 
     .share-count {
