@@ -1,5 +1,5 @@
 const config = {
-  siteTitle: "CarltonG's Dev Blog", // Site title.
+  siteTitle: "CG:Blog", // Site title.
   siteTitleShort: "CG Dev", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Carlton Gannett: Software Development Thoughts", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
@@ -18,9 +18,9 @@ const config = {
   userEmail: "carltongannett@gmail.com", // Email used for RSS feed's author segment
   userTwitter: "@CarltonGannett", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Earth", // User location to display in the author segment.
-  userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
+  userAvatar: "https://avatars3.githubusercontent.com/u/11354556?s=460&v=4", // User avatar to display in the author segment.
   userDescription:
-    "'Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.' - the default userDescription that I agree with whole heartedly.  -Carlton Gannett", // User description to display in the author segment.
+    "Be Better every day.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
